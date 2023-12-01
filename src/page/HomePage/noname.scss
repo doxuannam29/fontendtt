@@ -1,0 +1,38 @@
+.Home{
+    background-color: #fff;
+    
+    padding: 10px 100px;
+    height: auto;
+    width: 100%;
+
+}
+
+.Cardcomponents{
+    justify-content: center;
+    display: flex;  
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+     
+}
+.xemthem{
+border: 10x solid rgb(11,116, 299);
+background-color: rgb(224, 229, 235);
+color:rgb(11,116, 299) ;
+font-weight: 70000;
+width: 200px;
+height: 38px;
+border-radius:4px ;
+font-size: 20px;
+&:hover{
+    color: #ffff;
+    background:rgb(150, 9, 210) ;
+}
+ruby-span: #fff;
+}
+.buttonxem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

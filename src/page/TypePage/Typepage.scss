@@ -1,0 +1,41 @@
+.Row{
+   
+    padding: 0px 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+    //flex: 0 1 auto;
+    flex-direction: row;
+    
+    margin-right: -0.3125rem;
+    margin-left: -0.3125rem;
+}
+
+.Cardsanphamty{
+    padding: 30px 30px 30px 100px;;
+     justify-content: center;
+    display: flex;  
+    // flex-direction: row;
+
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+    
+     
+}
+.Navbar{
+    // padding: 0 80px;
+    // background-color: #e9e4e4;
+    // flex-wrap: nowrap;
+
+}
+.navhd{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    height: 20px;
+  margin-top: 0;
+  margin-left: 20px;
+}

@@ -1,0 +1,27 @@
+
+.h1{
+    color: #000;
+    font-size: 14px;
+
+}
+.btnAdd{
+font-size: 50px;
+height: 150px;
+width: 150px;
+border-radius: 6px;
+border-style: dashed;
+padding: 20px;
+}
+.Upload{
+    & .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    & .ant-upload-list-item-info {
+        display: none
+    }
+    & .ant-upload-list-item {
+        display: none;
+    }
+}

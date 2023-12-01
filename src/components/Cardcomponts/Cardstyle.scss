@@ -1,0 +1,52 @@
+.Cardstyle{
+
+
+
+// font-weight: 700;
+// padding: 10px;
+// color:#000000;;
+
+text-decoration: none;
+color: rgba(0,0,0,.87);
+display: block;
+box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.1);
+border-radius: 0.125rem;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+background: #fff;
+position: relative;
+overflow: visible;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+
+transition: transform .1s cubic-bezier(.4,0,.6,1),box-shadow .1s cubic-bezier(.4,0,.6,1);
+
+}
+.anh{
+  
+    
+}
+.diachi{
+    font-family:Arial;
+    //  margin: 10px;
+}
+.price{
+    font-weight: 800;
+    color: rgb(213, 70, 70);
+}
+.giad{
+    line-height: .875rem;
+}
+.gia{
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.don{
+    --tw-text-opacity: 1;
+    color: rgba(238,77,45,var(--tw-text-opacity));
+}

@@ -1,0 +1,10 @@
+.input{
+    border-top: none;
+    border-left: none;
+    border-left: none;
+    margin-top: 20px;
+    outline: none;
+    &:focus{
+        background-color: rgb(118, 159, 231);
+    }
+}

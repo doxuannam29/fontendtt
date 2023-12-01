@@ -1,0 +1,83 @@
+.hh{
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+   // margin: 0 auto;
+    gap: 20px;
+    height: 100%;
+    
+   
+}
+h1{
+    text-align: center;
+}
+.gach{
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 7px;
+   
+
+}
+.the{
+    display: flex;
+    flex-direction: column;
+}
+.buttn{
+    height: 30px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 20px ;
+    color: #f67878;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+label{
+    width: 100px;
+    text-align:  left;
+}
+.qluser{
+    width: 80%;
+}
+.tong{
+    display: flex;
+}
+.Upload{
+    & .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    & .ant-upload-list-item-info {
+        display: none
+    }
+}
+.cadsp{
+    padding: 40px 30px 30px 100px;;
+    justify-content: center;
+   display: flex;  
+   // flex-direction: row;
+
+   gap: 15px;
+   margin-top: 20px;
+   flex-wrap: wrap;
+}
+.Ro{
+    padding: 0px 90px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+    //flex: 0 1 auto;
+    flex-direction: row;
+    
+    margin-right: -0.3125rem;
+    margin-left: -0.3125rem;
+}
